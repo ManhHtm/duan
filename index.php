@@ -5,6 +5,7 @@ if(isset($_GET['act'])){
     $act=$_GET['act'];
     switch ($act) {
         case 'dangnhap':
+            
             include "view/dangnhap.php";
             break;
         

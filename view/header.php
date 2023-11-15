@@ -44,18 +44,18 @@
             <div class="container-fluid">
                 <div class="header-bottom-wrapper">
                     <div class="logo-2 furniture-logo ptb-30">
-                        <a href="index.php">
+                        <a href="trangchu.html">
                             <img src="img/Cute Illustrated Weekly Log Presentation.jpg" alt="" width="200px">
                         </a>
                     </div>
                     <div class="menu-style-2 furniture-menu menu-hover">
                         <nav>
                             <ul>
-                                <li><a href="index.php">Trang chủ</a></li>
-                                <li><a href="index.php?act=gt">Giới thiệu</a></li>
-                                <li><a href="index.php?act=bh">Bảo hành</a></li>
+                                <li><a href="trangchu.html">Trang chủ</a></li>
+                                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li><a href="baohanh.html">Bảo hành</a></li>
                                 <!-- <li><a href="">Liên hệ</a></li> -->
-                                <li><a href="index.php?act=tt">Tin tức</a></li>
+                                <li><a href="tintuc.html">Tin tức</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -79,9 +79,9 @@
                 <div class="furniture-bottom-wrapper">
                     <div class="furniture-login">
                         <ul>
-                            <li>Get Access: <a href="index.php?act=dangnhap">Login </a></li>
-                            <li><a href="index.php?act=dangky">Reg </a></li>
-                            <li><a href="index.php?act=user">User </a></li>
+                            <li>Get Access: <a href="login.html">Login </a></li>
+                            <li><a href="register.html">Reg </a></li>
+                            <li><a href="thongtinnguoidung.html">User </a></li>
                         </ul>
                     </div>
                     <div class="furniture-search">
@@ -103,18 +103,3 @@
             </div>
         </div>
     </header>
-
-    <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides ">
-          <img src="img/banner/bnss2.jpg" style="width:100%">
-        </div>
-        <div class="mySlides ">
-          <img src="img/banner/bnip.jpg" style="width:100%"> 
-        </div>
-        <div class="mySlides ">
-          <img src="img/banner/Find-N3-Flip-banner.jpg" style="width:100%">  
-        </div>
-        <!-- Next and previous buttons -->      
-    </div>
