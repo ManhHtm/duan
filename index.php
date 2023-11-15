@@ -1,11 +1,10 @@
 <?php
 include "view/header.php";
 // dang nhap, dang ký, dổi mk
-if(isset($_GET['act'])){
+if((isset($_GET['act']))&&($_GET['act']!="")){
     $act=$_GET['act'];
     switch ($act) {
         case 'dangnhap':
-            
             include "view/dangnhap.php";
             break;
         
@@ -20,18 +19,32 @@ if(isset($_GET['act'])){
         case 'user':
             include "view/user.php";
             break; 
-
         
-    }
-}else{
-    include "view/home.php";
-}
+
+            
+        // case 'gioithieu':
+        //     include "view/gioithieu.php";
+        //     break;
+
+        // case '':
+        //     include "view/iphone.php";
+        //     break;
+
+        // case 'iphone':
+        //     include "view/iphone.php";
+        //     break;
+
+        // case 'iphone':
+        //     include "view/iphone.php";
+        //     break;
+
+        // case 'iphone':
+        //     include "view/iphone.php";
+        //     break;
 
 
-//tất cả sản phẩm
-if(isset($_GET['act'])){
-    $act=$_GET['act'];
-    switch ($act) {
+
+
         case 'iphone':
             include "view/iphone.php";
             break;
@@ -50,15 +63,17 @@ if(isset($_GET['act'])){
 
         case 'xiaomi':
             include "view/xiaomi.php";
-            break; 
+            break;
 
-        
+        default:
+        include "view/home.php";
+            break;
     }
 }else{
     include "view/home.php";
 }
 
- 
+
 
 include "view/footer.php";
 
