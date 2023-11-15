@@ -16,9 +16,11 @@ if(isset($_GET['act'])){
             include "view/quenmk.php";
             break; 
 
-        default:
-        include "view/home.php";
-            break;
+        case 'user':
+            include "view/user.php";
+            break; 
+
+        
     }
 }else{
     include "view/home.php";
@@ -49,9 +51,7 @@ if(isset($_GET['act'])){
             include "view/xiaomi.php";
             break; 
 
-        default:
-        include "view/home.php";
-            break;
+        
     }
 }else{
     include "view/home.php";
