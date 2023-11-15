@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "bungee";
+    src: url(../Roboto/Roboto-Bold.ttf);
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    font-family: "bungee";
+}
+
+header .logo img{
+    width: 250px;
+    
+}
+
+header{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+header .text h2{
+    margin-top: 60px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    background-color: cadetblue;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+
+}
+
+nav ul li{
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li:hover{
+    background-color: cornflowerblue;
+    
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.row .row input{
+    width: 100%;
+    
+    margin: 5px 0px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.row input{
+    
+    padding: 9px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.danhsach .tieude{
+    background-color: rgb(9, 129, 89);
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    padding: 12px;
+    margin: 12px 0px;
+    text-align: center;
+    color: white;
+}
+
+
